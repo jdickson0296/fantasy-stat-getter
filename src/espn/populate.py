@@ -63,7 +63,6 @@ def populate_box_scores():
                 'away_score': round(box_score.away_score, 2),
                 'home_projected': round(box_score.home_projected, 2),
                 'away_projected': round(box_score.away_projected, 2),
-                'year': YEAR,
                 'league_id': LEAGUE_ID,
                 'league_name': LEAGUE_NAME[LEAGUE_ID]
             }
@@ -90,7 +89,6 @@ def populate_players():
                 'total_projected_points': round(player.projected_total_points, 2),
                 'avg_points': round(player.avg_points, 2),
                 'projected_avg_points': round(player.projected_avg_points, 2),
-                'year': YEAR,
                 'league_id': LEAGUE_ID,
                 'league_name': LEAGUE_NAME[LEAGUE_ID]
             }
