@@ -166,3 +166,7 @@ cython_debug/
 
 # Envorinment Vars
 espn_vars.txt
+yahoo_vars.txt
+
+# Yahoo Auth
+src/auth/*.json
