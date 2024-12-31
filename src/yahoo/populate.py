@@ -6,11 +6,12 @@ from src.utils.utils import write_df_to_csv
 
 
 DATA_PATH = Path('src/data/')
-YEAR = "2023"
+YEAR = "2024"
 # Get league IDs from https://profiles.sports.yahoo.com/#
-LEAGUE_ID = "178012"
-LEAGUE_NAME = {'178012': 'BNH'}
-YAHOO_FB_CLIENT = YahooFootball(league_id=LEAGUE_ID, game_id=423)
+LEAGUE_ID = "1055167"
+LEAGUE_NAME = {'1055167': 'LinkedIn'}
+# Game ID found in https://github.com/uberfastman/yfpy/blob/main/quickstart/quickstart.py
+YAHOO_FB_CLIENT = YahooFootball(league_id=LEAGUE_ID, game_id=449)
 
 
 def populate_players(league_id: int):
